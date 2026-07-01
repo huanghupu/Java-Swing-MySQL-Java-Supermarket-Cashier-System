@@ -14,22 +14,7 @@
 - 连接驱动：JDBC mysql-connector
 - UML建模：PlantUML
 
-## 项目目录结构
-src/
-├── Main.java # 程序唯一启动入口
-├── GetDBConnection.java # 数据库连接 / 关闭资源工具类
-├── DBInit.java # 自动建库建表初始化类（可选）
-├── WinEvent.java # 主窗口，多标签页容器
-├── PanelSearchAll.java # 商品查询总面板
-├── PanelInsert.java # 新增商品面板
-├── PanelDelete.java # 删除商品面板
-├── PanelUpdate.java # 修改商品面板
-├── PanelCashier.java # 收银结算面板（内置 CartItem 购物车内部类）
-└── ButtonListener.java # 通用按钮事件监听器
-sql/
-└── supermarket.sql # 完整数据库备份文件，包含 goods、sale_order、sale_order_item 三张表
-uml/
-└── supermarket.puml # 项目全部业务类 UML 类图源码，轻量化无渲染报错
+
 
 ## 系统运行截图
 ### 1. 主界面（多标签页总览）
